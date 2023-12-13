@@ -248,13 +248,26 @@ header{
 
 
 
+.image-container {
+	text-align: center;
+	margin: 5rem;
+}
 
+.image-serial img{
+	width: 300px;
+}
 
+.image-serial2 img {
+	width: 300px;
+}
 
+.image-serial .height {
+	height: 225px;
+}
 
-
-
-
+.image-serial .height2 {
+	height: 225px;
+}
 
 /* Even section start end */
 
