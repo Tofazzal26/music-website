@@ -250,15 +250,36 @@ header{
 
 .image-container {
 	text-align: center;
-	margin: 5rem;
+	margin: 3rem;
 }
 
 .image-serial img{
 	width: 300px;
 }
-
+.image-serial img {
+	margin: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.7s;
+}
 .image-serial2 img {
 	width: 300px;
+}
+
+
+.image-serial img:hover{
+	transform: scale(1.1);
+}
+
+.image-serial2 img:hover {
+	transform: scale(1.1);
+}
+
+.image-serial2 img {
+	margin: 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.7s;
 }
 
 .image-serial .height {
